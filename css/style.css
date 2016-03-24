@@ -1,15 +1,22 @@
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
-	position: fixed;
-	width: 100%;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation > .content {
+	width: 970px;
 	height: 70px;
-	border-bottom: 1px solid #DDD;
-	z-index: 9999;
+	margin: 0 auto;
 }
-.content {
-	
+.top-navigation > .content {
+    height: 4.375rem;
 }
-.links {
-	
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
 }
