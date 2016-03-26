@@ -23,8 +23,18 @@
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
 }
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
 }
+.top-navigation .logo {
+    height: 4.375rem;
