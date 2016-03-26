@@ -1,4 +1,10 @@
 /* Navigation Section */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 .top-navigation {
 	background-color: #fff;
     position: fixed;
@@ -25,8 +31,8 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #838994;
     letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -35,6 +41,8 @@
     font-size: 16px;
     color: #838994;
     letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
 .top-navigation .logo {
     height: 4.375rem;
+}
