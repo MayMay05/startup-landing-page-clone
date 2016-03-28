@@ -16,16 +16,7 @@ html {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-}
-.top-navigation .content {
-    height: 4.375rem;
-}
-.top-navigation .links {
-    float: right;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
+	height: 4.375rem;
 }
 .top-navigation .links li.active {
     color: #4c5058;
@@ -39,9 +30,11 @@ html {
     display: inline-block;
     margin-left: 25px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    float: right;
     color: #838994;
+    font-size: 16px;
     letter-spacing: 0.03em;
+    margin-top: 25px;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .logo {
@@ -59,12 +52,22 @@ html {
     height: 45.938rem;
     overflow: auto;
 }
-.content h1 h3 {
+.content h1 {
 	margin-top: 17.5rem;
     font-size: 3.125rem;
     color: white;
     text-align: center;
     font-weight: 300;
+}
+.content h3 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: white;
+}
+.buttons { 
+	width:155px;
+	margin:auto; 
 }
 button {
     width: 9.688rem;
