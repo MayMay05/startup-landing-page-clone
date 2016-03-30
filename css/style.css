@@ -104,9 +104,19 @@ button {
     margin: 2.5rem 0px 1.875rem;
     color: black;
 }
-.devices li {
-width: 250px;	
+.content h5 {
+	text-align: center;
+	font-size: 100%
+	font: inherit;
 }
-.caption h3 {
-
+.footer .social {
+	
+}
+.icons {
+	display: inline-block;
+	margin: auto;
+}
+.social .icons li:hover {
+	cursor: pointer;
+    color: #333333; 
 }
