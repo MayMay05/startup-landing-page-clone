@@ -93,7 +93,7 @@ button {
     padding: 60px;
 }
 .cases .devices > li {
-	width: 33.3333333%;
+	width: 33.3333%;
     display: inline-block;
     flex-direction: row;
     float: left;
@@ -102,4 +102,11 @@ button {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
+    color: black;
+}
+.devices li {
+width: 250px;	
+}
+.caption h3 {
+
 }
