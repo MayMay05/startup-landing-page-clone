@@ -52,18 +52,21 @@ html {
     height: 45.938rem;
     overflow: auto;
 }
-.content h1 {
+.introduction h1 {
 	margin-top: 17.5rem;
-    font-size: 3.125rem;
+	margin-bottom: 10px;
+    font-size: 40px;
     color: white;
     text-align: center;
     font-weight: 300;
+    -webkit-font-smoothing: antialiased;
 }
-.content h3 {
+.introduction h3 {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 1.25rem;
 	color: white;
+	font-weight: 300;
+	font-size: 1.563rem;
 }
 .buttons { 
 	width:155px;
@@ -88,15 +91,20 @@ button {
 .content h2 {
 	text-align: center;
 	font-size: 2.75rem;
-    margin: 1.625rem 0 3.125rem;
+    margin-top: 60px;
+    margin-bottom: -10px;
     font-weight: 300;
     padding: 60px;
 }
 .cases .devices > li {
-	width: 33.3333%;
     display: inline-block;
     flex-direction: row;
-    float: left;
+    text-align: center;
+    margin-left: 15px;
+}
+.cases .devices {
+	padding-left: 300px;
+	margin-top: -20px;
 }
 .cases .devices h3 {
     font-weight: 400;
@@ -104,19 +112,48 @@ button {
     margin: 2.5rem 0px 1.875rem;
     color: black;
 }
+.social hr {
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+    margin-right: 325px;
+    margin-left: 325px;
+}
 .content h5 {
 	text-align: center;
-	font-size: 100%
-	font: inherit;
 }
-.footer .social {
-	
-}
-.icons {
-	display: inline-block;
-	margin: auto;
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
 }
 .social .icons li:hover {
-	cursor: pointer;
-    color: #333333; 
+	cursor: pointer; 
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.fa-twitter {
+    color: #55acee;
+}
+.fa-facebook {
+	color: #4c66a4;
+}
+.fa-instagram {
+	color: #3f729b;
+}
+.icons {
+	text-align: center;
+	padding-right: 40px;
+	margin-top: -20px;
+	margin-bottom: 50px;
 }
