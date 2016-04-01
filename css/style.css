@@ -96,15 +96,14 @@ button {
     font-weight: 300;
     padding: 60px;
 }
-.cases .devices > li {
-    display: inline-block;
-    flex-direction: row;
-    text-align: center;
-    margin-left: 15px;
+.cases .devices > li { float: left; 
+	text-align: center; 
+	width: 33.3%; 
+	list-style-type: none; 
 }
-.cases .devices {
-	padding-left: 300px;
-	margin-top: -20px;
+.cases .devices { 
+	margin: auto; 
+	width: 1000px;
 }
 .cases .devices h3 {
     font-weight: 400;
